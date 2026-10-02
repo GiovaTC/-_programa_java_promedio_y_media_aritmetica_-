@@ -16,7 +16,31 @@ public class Main {
         System.out.print("¿ cuantos numeros desea ingresar? : ");
         int cantidad = teclado.nextInt();
 
-            
+        double suma = 0;
 
+        // ENTRADA DE LOS NUMEROS.
+        for (int i = 1; i <= cantidad; i++) {
+
+            System.out.print("Ingrese el numero " + i + ": ");
+            double numero = teclado.nextDouble();
+
+            suma = suma + numero;
+        }
+
+        // CALCULAR LA MEDIA O PROMEDIO.
+        double promedio = suma / cantidad;
+
+        // Mostrar resultados
+        System.out.println();
+        System.out.println("================================");
+        System.out.println("       RESULTADO");
+        System.out.println("================================");
+        System.out.println("Cantidad de números: " + cantidad);
+        System.out.println("Suma: " + suma);
+        System.out.println("Promedio: " + promedio);
+        System.out.println("Media aritmética: " + promedio);
+        System.out.println("================================");
+
+        teclado.close();
     }
 }
