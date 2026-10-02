@@ -1,4 +1,9 @@
 # -_programa_java_promedio_y_media_aritmetica_- :.
+
+<img width="1278" height="1079" alt="image" src="https://github.com/user-attachments/assets/1503ee3c-42d4-465f-bbb3-52ba2b48867c" />
+
+```
+
 # Programa Java - Promedio y Media Aritmética
 
 Programa **básico de consola en Java para IntelliJ IDEA** que permite ingresar una cantidad de números por teclado y calcular su **promedio o media aritmética**.
